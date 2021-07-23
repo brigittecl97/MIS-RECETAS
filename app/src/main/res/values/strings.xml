@@ -6,8 +6,11 @@
     <string name="contraseña">Contraseña</string>
     <string name="tema_menu">Tema</string>
     <string name="integrantes_menu">Integrantes</string>
+    <string name="productos">Productos</string>
     <string name="oscuro_menu">Oscuro</string>
     <string name="claro_menu">Claro</string>
+    <string name="productos_">Productos</string>
+    <string name="btn_compra">Comprar</string>
     <string name="salir_menu">Salir</string>
     <string name="principal_titulo">Lista de Recetas</string>
     <string name="btn_detalle">Detalle</string>

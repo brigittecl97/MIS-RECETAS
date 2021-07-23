@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_producto">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="324dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/productos_"
+        android:textAlignment="center"
+        android:textColor="@color/titulos"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="112dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="132dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/aceite" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="108dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="198dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="76dp"
+                android:text="Aceite de oliva"
+                android:textAlignment="center"
+                android:textColor="@color/iconos"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_comprar"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="54dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/btn_detalle"
+                android:text="@string/btn_compra"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:startIconDrawable="@drawable/user" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="114dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="265dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-185dp"
+            tools:layout_editor_absoluteY="329dp">
+
+            <Button
+                android:id="@+id/btn_comprar9"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="54dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/btn_detalle"
+                android:text="@string/btn_compra"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:startIconDrawable="@drawable/user" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:srcCompat="@drawable/huevo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="195dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="90dp"
+                android:text="Huevos"
+                android:textAlignment="center"
+                android:textColor="@color/iconos"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="117dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="407dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_comprar10"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="54dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/btn_detalle"
+                android:text="@string/btn_compra"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:startIconDrawable="@drawable/user" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="195dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="90dp"
+                android:text="Harina"
+                android:textAlignment="center"
+                android:textColor="@color/iconos"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/harina" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="117dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="536dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_comprar8"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="54dp"
+                android:layout_marginRight="86dp"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/btn_detalle"
+                android:text="@string/btn_compra"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:startIconDrawable="@drawable/user" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="195dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="90dp"
+                android:text="Leche"
+                android:textAlignment="center"
+                android:textColor="@color/iconos"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/leche" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

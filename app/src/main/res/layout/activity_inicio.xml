@@ -110,7 +110,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"
@@ -214,7 +214,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"
@@ -318,7 +318,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"
@@ -420,7 +420,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"
@@ -522,7 +522,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"
@@ -625,7 +625,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/btn_detalle"
+                android:id="@+id/btn_compra"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_alignParentTop="true"

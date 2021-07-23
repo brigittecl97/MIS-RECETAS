@@ -30,6 +30,11 @@
         android:iconTint="@color/iconos"
         android:title="@string/integrantes_menu" />
     <item
+        android:id="@+id/productos"
+        android:icon="@drawable/icono_de_productos_lacteos"
+        android:iconTint="@color/iconos"
+        android:title="@string/productos" />
+    <item
         android:id="@+id/salir"
         android:icon="@drawable/salir"
         android:iconTint="@color/iconos"
